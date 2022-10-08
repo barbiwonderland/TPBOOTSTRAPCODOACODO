@@ -1,0 +1,41 @@
+.formulario {
+    margin: auto;
+    width: 50%;
+}
+
+.lightGreen {
+    background-color: rgb(139, 222, 14) !important;
+}
+
+.greenDarkbg {
+    background: linear-gradient(to right, rgb(29, 89, 87), rgb(38, 114, 125));
+}
+
+.darkGreybg {
+    background-color: rgb(75, 75, 75);
+}
+
+footer li {
+    max-width: 10%;
+}
+
+.carousel-item {
+    background-color: black;
+}
+
+.carousel-item img {
+
+    opacity: .6;
+    max-height: 90vh;
+    object-fit: cover;
+}
+
+@media (max-width: 600px) {
+    .carousel-caption {
+        font-size: 10px;
+    }
+
+    footer li {
+        font-size: 6px;
+    }
+}
